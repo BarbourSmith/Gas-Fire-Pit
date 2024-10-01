@@ -1314,8 +1314,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7248677248677249,
-            "y": 0.3342618384401114,
+            "x": 0.727921498661909,
+            "y": 0.32869080779944293,
             "uniqueID": 1727737312273,
             "ioValues": [
                 {
@@ -1324,7 +1324,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": 19
+                    "ioValue": 12
                 },
                 {
                     "name": "Sheet Width",
