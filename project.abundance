@@ -1899,9 +1899,9 @@
                         },
                         {
                             "atomType": "Equation",
-                            "name": "(R-2*S)/2",
-                            "x": 0.31627906976744186,
-                            "y": 0.6768802228412256,
+                            "name": "((R-2*S)/2)-1",
+                            "x": 0.31601362862010224,
+                            "y": 0.6880222841225626,
                             "uniqueID": 1727738396735,
                             "ioValues": [
                                 {
@@ -1914,7 +1914,7 @@
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-                            "currentEquation": "(R-2*S)/2"
+                            "currentEquation": "((R-2*S)/2)-1"
                         },
                         {
                             "atomType": "Rectangle",
@@ -2000,7 +2000,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 362.3
+                                    "ioValue": 361.3
                                 },
                                 {
                                     "name": "yDist",
