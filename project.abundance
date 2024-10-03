@@ -1382,12 +1382,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1727737741529,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1727738060986
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -1446,12 +1441,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1727737814431,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1727737972592
-                                }
-                            ],
+                            "ioValues": [],
                             "description": "Connect geometry here to make it available in the next level up. "
                         },
                         {
@@ -1588,7 +1578,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": ""
+                                    "ioValue": 1727737926983
                                 }
                             ],
                             "description": "Tags geometry so that it can be extracted later.",
@@ -1601,8 +1591,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4669312169312169,
-                            "y": 0.27019498607242337,
+                            "x": 0.46592844974446335,
+                            "y": 0.2618384401114206,
                             "uniqueID": 1727737962562,
                             "ioValues": [
                                 {
@@ -1646,7 +1636,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5297619047619048,
+                            "x": 0.5281090289608177,
                             "y": 0.6295264623955432,
                             "uniqueID": 1727737984473,
                             "ioValues": [
@@ -1764,6 +1754,13 @@
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
+                            "ap1ID": 1727737926983,
+                            "ap2ID": 1727737953115
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1727737953115,
                             "ap2ID": 1727737962562
                         },
@@ -1780,13 +1777,6 @@
                             "ap2Primary": true,
                             "ap1ID": 1727737962562,
                             "ap2ID": 1727737984473
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 1727737972592,
-                            "ap2ID": 1727737814431
                         },
                         {
                             "ap1Name": "geometry",
