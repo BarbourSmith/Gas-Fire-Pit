@@ -11,7 +11,7 @@
         },
         {
             "name": "Ring Diameter",
-            "ioValue": 750
+            "ioValue": 749
         },
         {
             "name": "Slat Thickness",
@@ -1100,7 +1100,7 @@
                 },
                 {
                     "name": "Ring Diameter",
-                    "ioValue": 750
+                    "ioValue": 749
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -1138,7 +1138,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 750
+                            "ioValue": 749
                         }
                     ],
                     "description": "Creates a new circle."
@@ -1367,7 +1367,7 @@
                 },
                 {
                     "name": "Ring Diameter",
-                    "ioValue": 750
+                    "ioValue": 749
                 },
                 {
                     "name": "Slat Thickness",
@@ -1435,7 +1435,7 @@
                         },
                         {
                             "name": "Ring Diameter",
-                            "ioValue": 750
+                            "ioValue": 749
                         },
                         {
                             "name": "Slat Thickness",
@@ -1495,7 +1495,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 750
+                                    "ioValue": 749
                                 },
                                 {
                                     "name": "S",
@@ -1514,7 +1514,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 724.6
+                                    "ioValue": 723.6
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -1528,7 +1528,7 @@
                             "ioValues": [
                                 {
                                     "name": "D",
-                                    "ioValue": 724.6
+                                    "ioValue": 723.6
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1543,7 +1543,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 649.6
+                                    "ioValue": 648.6
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -1842,7 +1842,7 @@
                         },
                         {
                             "name": "Ring Diameter",
-                            "ioValue": 750
+                            "ioValue": 749
                         },
                         {
                             "name": "Slat Thickness",
@@ -1906,7 +1906,7 @@
                             "ioValues": [
                                 {
                                     "name": "R",
-                                    "ioValue": 750
+                                    "ioValue": 749
                                 },
                                 {
                                     "name": "S",
@@ -2000,7 +2000,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 361.3
+                                    "ioValue": 360.8
                                 },
                                 {
                                     "name": "yDist",
