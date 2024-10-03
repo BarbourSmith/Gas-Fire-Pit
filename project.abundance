@@ -1352,8 +1352,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 0.26046511627906976,
-            "y": 0.233983286908078,
+            "x": 0.2657580919931857,
+            "y": 0.2618384401114206,
             "uniqueID": 1727737741448,
             "ioValues": [
                 {
@@ -1588,7 +1588,7 @@
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1727737926983
+                                    "ioValue": ""
                                 }
                             ],
                             "description": "Tags geometry so that it can be extracted later.",
@@ -1759,13 +1759,6 @@
                             "ap2Primary": true,
                             "ap1ID": 1727737919845,
                             "ap2ID": 1727737926983
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1727737926983,
-                            "ap2ID": 1727737953115
                         },
                         {
                             "ap1Name": "geometry",
