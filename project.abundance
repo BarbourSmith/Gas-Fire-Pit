@@ -31,12 +31,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726787848543,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1727215036716
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -3141,13 +3136,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1727215036716,
-            "ap2ID": 1726787848543
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1727215036716,
@@ -3219,19 +3207,6 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "Fire Pit Ring",
-            "numberNeeded": 1,
-            "costUSD": 206,
-            "source": "https://amzn.to/3XAoGSm"
-        },
-        {
-            "BOMitemName": "Propane Tank",
-            "numberNeeded": 1,
-            "costUSD": 68.95,
-            "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
-        }
-    ],
+    "compiledBom": [],
     "filetypeVersion": 1
 }
