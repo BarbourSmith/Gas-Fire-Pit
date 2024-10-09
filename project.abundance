@@ -1260,8 +1260,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.3062169312169312,
-            "y": 0.7353760445682451,
+            "x": 0.3082010582010582,
+            "y": 0.7576601671309192,
             "uniqueID": 1727736399623,
             "ioValues": [
                 {
@@ -1344,12 +1344,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": 1727737741529,
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": 1727738060986
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -2351,25 +2346,6 @@
                     "compiledBom": {}
                 },
                 {
-                    "atomType": "Join",
-                    "name": "Assembly",
-                    "x": 0.5674603174603174,
-                    "y": 0.44568245125348194,
-                    "uniqueID": 1727738060986,
-                    "ioValues": [
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1727737823997
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": 1727737814391
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Assembly"
-                },
-                {
                     "atomType": "Input",
                     "name": "Height",
                     "x": 0.04,
@@ -2421,27 +2397,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1727737796552,
                     "ap2ID": 1727737823997
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "Shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 1727737814391,
-                    "ap2ID": 1727738060986
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 1727737823997,
-                    "ap2ID": 1727738060986
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1727738060986,
-                    "ap2ID": 1727737741529
                 },
                 {
                     "ap1Name": "number or geometry",
