@@ -1377,8 +1377,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Inner Rings",
-                    "x": 0.29828042328042326,
-                    "y": 0.2618384401114206,
+                    "x": 0.30158730158730157,
+                    "y": 0.24512534818941506,
                     "uniqueID": 1727737814391,
                     "ioValues": [
                         {
@@ -1784,8 +1784,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Inner Uprights",
-                    "x": 0.32275132275132273,
-                    "y": 0.5626740947075208,
+                    "x": 0.3194444444444444,
+                    "y": 0.5487465181058496,
                     "uniqueID": 1727737823997,
                     "ioValues": [
                         {
@@ -2353,6 +2353,70 @@
                     "uniqueID": 1727738864781,
                     "ioValues": [],
                     "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "CutLayout",
+                    "name": "Cut Layout",
+                    "x": 0.6335978835978836,
+                    "y": 0.42896935933147634,
+                    "uniqueID": 1728507752623,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1728507852195
+                        },
+                        {
+                            "name": "Material Thickness",
+                            "ioValue": 12
+                        },
+                        {
+                            "name": "Sheet Width",
+                            "ioValue": 2438
+                        },
+                        {
+                            "name": "Sheet Height",
+                            "ioValue": 1219
+                        },
+                        {
+                            "name": "Part Padding",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "Sheet Padding",
+                            "ioValue": 76
+                        }
+                    ],
+                    "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut."
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Assembly",
+                    "x": 0.47619047619047616,
+                    "y": 0.6434540389972144,
+                    "uniqueID": 1728507794095,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1727737823997
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                    "unionType": "Assembly"
+                },
+                {
+                    "atomType": "Join",
+                    "name": "Assembly",
+                    "x": 0.498015873015873,
+                    "y": 0.22841225626740946,
+                    "uniqueID": 1728507852195,
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": 1727737814391
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
+                    "unionType": "Assembly"
                 }
             ],
             "allConnectors": [
@@ -2372,6 +2436,13 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Material Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 1727737741398,
+                    "ap2ID": 1728507752623
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Ring Diameter",
                     "ap2Primary": false,
                     "ap1ID": 1727737741355,
@@ -2397,6 +2468,20 @@
                     "ap2Primary": false,
                     "ap1ID": 1727737796552,
                     "ap2ID": 1727737823997
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1727737814391,
+                    "ap2ID": 1728507852195
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1727737823997,
+                    "ap2ID": 1728507794095
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -2404,6 +2489,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1727738864781,
                     "ap2ID": 1727737823997
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1728507852195,
+                    "ap2ID": 1728507752623
                 }
             ],
             "fileTypeVersion": 1,
