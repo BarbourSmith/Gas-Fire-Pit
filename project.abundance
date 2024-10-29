@@ -1062,8 +1062,8 @@
         {
             "atomType": "Molecule",
             "name": "Top",
-            "x": 0.18915343915343916,
-            "y": 0.44846796657381616,
+            "x": 0.18716931216931218,
+            "y": 0.467966573816156,
             "uniqueID": 1727736219741,
             "ioValues": [
                 {
@@ -1377,8 +1377,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Inner Rings",
-                    "x": 0.30158730158730157,
-                    "y": 0.24512534818941506,
+                    "x": 0.2996031746031746,
+                    "y": 0.23676880222841226,
                     "uniqueID": 1727737814391,
                     "ioValues": [
                         {
@@ -2357,8 +2357,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.6335978835978836,
-                    "y": 0.42896935933147634,
+                    "x": 0.6898148148148149,
+                    "y": 0.4428969359331476,
                     "uniqueID": 1728507752623,
                     "ioValues": [
                         {
@@ -2391,13 +2391,17 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.47619047619047616,
-                    "y": 0.6434540389972144,
+                    "x": 0.5846560846560847,
+                    "y": 0.6713091922005571,
                     "uniqueID": 1728507794095,
                     "ioValues": [
                         {
                             "name": "Shape 1",
                             "ioValue": 1727737823997
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1728507852195
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -2406,8 +2410,8 @@
                 {
                     "atomType": "Join",
                     "name": "Assembly",
-                    "x": 0.498015873015873,
-                    "y": 0.22841225626740946,
+                    "x": 0.501984126984127,
+                    "y": 0.23676880222841226,
                     "uniqueID": 1728507852195,
                     "ioValues": [
                         {
@@ -2496,6 +2500,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1728507852195,
                     "ap2ID": 1728507752623
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 1728507852195,
+                    "ap2ID": 1728507794095
                 }
             ],
             "fileTypeVersion": 1,
