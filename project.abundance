@@ -648,7 +648,7 @@
                 },
                 {
                     "name": "Sheet Height",
-                    "ioValue": 900
+                    "ioValue": 1000
                 },
                 {
                     "name": "Part Padding",
@@ -2521,6 +2521,36 @@
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
             "unionType": "Assembly"
+        },
+        {
+            "atomType": "Export",
+            "name": "Export",
+            "x": 0.7910052910052909,
+            "y": 0.7632311977715878,
+            "uniqueID": 1730758212492,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1727737312273
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 96
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Part Name"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
+                }
+            ],
+            "description": "Export Atom, let's you choose a type of file to Export.",
+            "type": null,
+            "resolution": 72,
+            "importIndex": 0,
+            "fileName": null
         }
     ],
     "allConnectors": [
@@ -2565,6 +2595,13 @@
             "ap2Primary": true,
             "ap1ID": 1727736399623,
             "ap2ID": 1727215013003
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1727737312273,
+            "ap2ID": 1730758212492
         },
         {
             "ap1Name": "number or geometry",
