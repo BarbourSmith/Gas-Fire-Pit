@@ -31,7 +31,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726787848543,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1730757127964
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1279,13 +1284,13 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7096560846560847,
-            "y": 0.2841225626740947,
+            "x": 0.6408730158730158,
+            "y": 0.7688022284122563,
             "uniqueID": 1727737312273,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1727215013003
+                    "ioValue": 1727737741448
                 },
                 {
                     "name": "Material Thickness",
@@ -2370,8 +2375,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.6917989417989417,
-                    "y": 0.44011142061281333,
+                    "x": 0.7222222222222222,
+                    "y": 0.34818941504178275,
                     "uniqueID": 1728507752623,
                     "ioValues": [
                         {
@@ -2509,17 +2514,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1728507794095,
-                    "ap2ID": 1728507752623
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 1728507794095,
                     "ap2ID": 1727737741529
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1728507794095,
+                    "ap2ID": 1728507752623
                 },
                 {
                     "ap1Name": "geometry",
@@ -3152,7 +3157,7 @@
             "atomType": "Join",
             "name": "Assembly",
             "x": 0.5548941798941799,
-            "y": 0.42618384401114207,
+            "y": 0.4345403899721449,
             "uniqueID": 1730757127964,
             "ioValues": [
                 {
@@ -3189,13 +3194,6 @@
             "ap2Primary": false,
             "ap1ID": 1726787881968,
             "ap2ID": 1727737741448
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1727215013003,
-            "ap2ID": 1727737312273
         },
         {
             "ap1Name": "geometry",
@@ -3240,6 +3238,13 @@
             "ap2ID": 1730757127964
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1727737741448,
+            "ap2ID": 1727737312273
+        },
+        {
             "ap1Name": "number or geometry",
             "ap2Name": "Slat Thickness",
             "ap2Primary": false,
@@ -3266,10 +3271,24 @@
             "ap2Primary": false,
             "ap1ID": 1727738816005,
             "ap2ID": 1727737741448
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1730757127964,
+            "ap2ID": 1726787848543
         }
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [],
+    "compiledBom": [
+        {
+            "BOMitemName": "Fire Pit Ring",
+            "numberNeeded": 1,
+            "costUSD": 206,
+            "source": "https://amzn.to/3XAoGSm"
+        }
+    ],
     "filetypeVersion": 1
 }
