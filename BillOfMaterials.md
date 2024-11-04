@@ -3,6 +3,7 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |Fire Pit Ring|1|$206.00|https://amzn.to/3XAoGSm|
-|Total: |1|$206.00| |
+|Propane Tank|1|$68.95|[Amazon](https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND?tag=maslowcnc01-20)|
+|Total: |2|$274.95| |
 
- 3xCOG MSRP: $618.00
+ 3xCOG MSRP: $824.85
