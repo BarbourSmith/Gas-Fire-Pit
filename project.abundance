@@ -640,7 +640,7 @@
                 },
                 {
                     "name": "Material Thickness",
-                    "ioValue": 13
+                    "ioValue": 12
                 },
                 {
                     "name": "Sheet Width",
@@ -2567,6 +2567,13 @@
             "ap2Primary": false,
             "ap1ID": 1726787881968,
             "ap2ID": 1727737741448
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Material Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1726787881968,
+            "ap2ID": 1727737312273
         },
         {
             "ap1Name": "Geometry",
