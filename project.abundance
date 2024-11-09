@@ -1658,7 +1658,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1727737823997
+                            "ioValue": 1728507794095
                         },
                         {
                             "name": "Material Thickness",
@@ -1768,13 +1768,6 @@
                     "ap2ID": 1728507794095
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1727737823997,
-                    "ap2ID": 1728507752623
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Height",
                     "ap2Primary": false,
@@ -1787,6 +1780,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1728507794095,
                     "ap2ID": 1727737741529
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1728507794095,
+                    "ap2ID": 1728507752623
                 }
             ],
             "fileTypeVersion": 1,
