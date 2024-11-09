@@ -1683,7 +1683,7 @@
                         },
                         {
                             "name": "Sheet Padding",
-                            "ioValue": 76
+                            "ioValue": 1
                         }
                     ],
                     "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut."
