@@ -31,7 +31,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726787848543,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1730757127964
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -668,8 +673,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 0.26719576719576715,
-            "y": 0.2590529247910863,
+            "x": 0.2670863309352518,
+            "y": 0.2618384401114206,
             "uniqueID": 1727737741448,
             "ioValues": [
                 {
@@ -819,8 +824,8 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.21626984126984128,
-                            "y": 0.3899721448467966,
+                            "x": 0.21223021582733814,
+                            "y": 0.39275766016713093,
                             "uniqueID": 1727737885508,
                             "ioValues": [
                                 {
@@ -1652,8 +1657,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 0.7003968253968255,
-                    "y": 0.41782729805013924,
+                    "x": 0.6816546762589928,
+                    "y": 0.3537604456824513,
                     "uniqueID": 1728507752623,
                     "ioValues": [
                         {
@@ -1666,11 +1671,11 @@
                         },
                         {
                             "name": "Sheet Width",
-                            "ioValue": 700
+                            "ioValue": 1400
                         },
                         {
                             "name": "Sheet Height",
-                            "ioValue": 700
+                            "ioValue": 1400
                         },
                         {
                             "name": "Part Padding",
