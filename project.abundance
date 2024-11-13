@@ -652,7 +652,7 @@
                 },
                 {
                     "name": "Part Padding",
-                    "ioValue": 6
+                    "ioValue": 20
                 },
                 {
                     "name": "Sheet Padding",
@@ -2627,7 +2627,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Part Name"
+                    "ioValue": "Gas Fire Pit"
                 },
                 {
                     "name": "File Type",
