@@ -2431,6 +2431,10 @@
                 {
                     "name": "Shape 4",
                     "ioValue": 1726852191202
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": 1731535188734
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
@@ -2485,8 +2489,8 @@
         {
             "atomType": "Molecule",
             "name": "Controller",
-            "x": 0.32671957671957674,
-            "y": 0.42896935933147634,
+            "x": 0.27050264550264547,
+            "y": 0.4651810584958217,
             "uniqueID": 1731534342860,
             "ioValues": [
                 {
@@ -2518,7 +2522,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": 1731535171075
+                            "ioValue": 1731535472882
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -2669,8 +2673,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.7784391534391535,
-                    "y": 0.5431754874651811,
+                    "x": 0.6944444444444444,
+                    "y": 0.5041782729805014,
                     "uniqueID": 1731535171075,
                     "ioValues": [
                         {
@@ -2680,6 +2684,32 @@
                     ],
                     "description": "Changes the color of the shape.",
                     "selectedColorIndex": 18
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.7658730158730159,
+                    "y": 0.7298050139275767,
+                    "uniqueID": 1731535472882,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1731535171075
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 22.5
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 }
             ],
             "allConnectors": [
@@ -2727,9 +2757,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1731535171075,
+                    "ap2ID": 1731535472882
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 1731535171075,
+                    "ap1ID": 1731535472882,
                     "ap2ID": 1731534342288
                 }
             ],
@@ -2739,8 +2776,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4444444444444444,
-            "y": 0.5348189415041783,
+            "x": 0.36574074074074076,
+            "y": 0.44568245125348194,
             "uniqueID": 1731535188734,
             "ioValues": [
                 {
@@ -2749,7 +2786,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": 0
+                    "ioValue": 374.5
                 },
                 {
                     "name": "yDist",
@@ -2757,7 +2794,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 100
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -2896,6 +2933,13 @@
             "ap2Primary": true,
             "ap1ID": 1731534342860,
             "ap2ID": 1731535188734
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 5",
+            "ap2Primary": false,
+            "ap1ID": 1731535188734,
+            "ap2ID": 1730757127964
         }
     ],
     "unitsKey": "MM",
