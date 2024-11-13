@@ -2481,6 +2481,101 @@
             "description": "Extracts geometry containing the specified tag.",
             "tag": "Wood",
             "tagIndex": 2
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Controller",
+            "x": 0.32671957671957674,
+            "y": 0.42896935933147634,
+            "uniqueID": 1731534342860,
+            "ioValues": [
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Ring Diameter",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Slat Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1731534342288,
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 0.04,
+                    "y": 0.5543175487465182,
+                    "uniqueID": 1731534342906,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Ring Diameter",
+                    "x": 0.04,
+                    "y": 0.26740947075208915,
+                    "uniqueID": 1731534342297,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Slat Thickness",
+                    "x": 0.04,
+                    "y": 0.3983286908077995,
+                    "uniqueID": 1731534342159,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 0.04,
+                    "y": 0.9415041782729805,
+                    "uniqueID": 1731534342335,
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2599206349206349,
+                    "y": 0.46239554317548753,
+                    "uniqueID": 1731534376787,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
         }
     ],
     "allConnectors": [
