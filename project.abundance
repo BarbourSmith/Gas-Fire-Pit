@@ -2844,7 +2844,7 @@
                 }
             ],
             "description": "Extracts geometry containing the specified tag.",
-            "tag": "Wood",
+            "tag": "wood",
             "tagIndex": 2
         }
     ],
