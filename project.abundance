@@ -655,8 +655,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6340508806262232,
-            "y": 0.7409470752089137,
+            "x": 0.6355820105820106,
+            "y": 0.7437325905292479,
             "uniqueID": 1727737312273,
             "ioValues": [
                 {
@@ -684,7 +684,7 @@
             "placements": [
                 {
                     "translate": {
-                        "x": 384.47564697265625,
+                        "x": 384.48,
                         "y": 384.47564697265625
                     },
                     "id": 17,
@@ -692,11 +692,11 @@
                 },
                 {
                     "translate": {
-                        "x": -207.73297115156248,
+                        "x": 130,
                         "y": 854.1848374302734
                     },
                     "id": 3,
-                    "rotate": 180
+                    "rotate": 135
                 },
                 {
                     "translate": {
@@ -2507,13 +2507,13 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7876984126984127,
+            "x": 0.7903439153439152,
             "y": 0.7437325905292479,
             "uniqueID": 1730758212492,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1727737312273
+                    "ioValue": ""
                 },
                 {
                     "name": "Resolution (dpi)",
@@ -3198,13 +3198,6 @@
             "ap2Primary": true,
             "ap1ID": 1727736399623,
             "ap2ID": 1727215013003
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1727737312273,
-            "ap2ID": 1730758212492
         },
         {
             "ap1Name": "number or geometry",
