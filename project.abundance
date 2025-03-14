@@ -137,7 +137,7 @@
                     "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.5,
                     "y": 0.30346820809248554,
@@ -634,7 +634,7 @@
             "compiledBom": []
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.37367724867724866,
             "y": 0.5348189415041783,
@@ -655,8 +655,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6355820105820106,
-            "y": 0.7437325905292479,
+            "x": 0.6408730158730158,
+            "y": 0.7242339832869081,
             "uniqueID": 1727737312273,
             "ioValues": [
                 {
@@ -1113,7 +1113,7 @@
                             "description": "Moves a shape laterally in X, Y, Z."
                         },
                         {
-                            "atomType": "Join",
+                            "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.8988095238095238,
                             "y": 0.4958217270194986,
@@ -1232,7 +1232,7 @@
                             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                         },
                         {
-                            "atomType": "Join",
+                            "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.6309523809523809,
                             "y": 0.4874651810584958,
@@ -1349,7 +1349,7 @@
                                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                                 },
                                 {
-                                    "atomType": "Join",
+                                    "atomType": "Assembly",
                                     "name": "Fusion",
                                     "x": 0.5992063492063492,
                                     "y": 0.67966573816156,
@@ -2598,7 +2598,7 @@
                             "cutTag": false
                         },
                         {
-                            "atomType": "Join",
+                            "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.6838624338624338,
                             "y": 0.7158774373259054,
@@ -2980,7 +2980,7 @@
                     ]
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.5873015873015873,
                     "y": 0.6740947075208913,
@@ -3107,7 +3107,7 @@
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         },
         {
-            "atomType": "Join",
+            "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.5548941798941799,
             "y": 0.4345403899721449,
@@ -3302,7 +3302,7 @@
                     "description": "Extrudes a 2D shape. Input can be negitive. "
                 },
                 {
-                    "atomType": "Join",
+                    "atomType": "Assembly",
                     "name": "Fusion",
                     "x": 0.4629629629629629,
                     "y": 0.37861271676300573,
@@ -3533,7 +3533,7 @@
                             "description": "Extrudes a 2D shape. Input can be negitive. "
                         },
                         {
-                            "atomType": "Join",
+                            "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.7724867724867724,
                             "y": 0.5403899721448467,
@@ -3904,19 +3904,6 @@
     ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
-    "compiledBom": [
-        {
-            "BOMitemName": "Fire Pit Ring",
-            "numberNeeded": 1,
-            "costUSD": 206,
-            "source": "https://amzn.to/3XAoGSm"
-        },
-        {
-            "BOMitemName": "Propane Tank",
-            "numberNeeded": 1,
-            "costUSD": 68.95,
-            "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
-        }
-    ],
+    "compiledBom": [],
     "filetypeVersion": 1
 }
