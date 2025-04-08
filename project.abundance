@@ -31,12 +31,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1726787848543,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1730757127964
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -500,8 +495,7 @@
                     "tags": [
                         "cutLayout",
                         "Wood"
-                    ],
-                    "cutTag": true
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -568,8 +562,7 @@
                     "description": "Tags geometry so that it can be extracted later.",
                     "tags": [
                         "wood"
-                    ],
-                    "cutTag": false
+                    ]
                 }
             ],
             "allConnectors": [
@@ -1083,8 +1076,7 @@
                             "tags": [
                                 "cutLayout",
                                 "wood"
-                            ],
-                            "cutTag": true
+                            ]
                         },
                         {
                             "atomType": "Move",
@@ -1877,8 +1869,7 @@
                             "tags": [
                                 "cutLayout",
                                 "wood"
-                            ],
-                            "cutTag": true
+                            ]
                         },
                         {
                             "atomType": "GitHubMolecule",
@@ -2594,8 +2585,7 @@
                             "description": "Tags geometry so that it can be extracted later.",
                             "tags": [
                                 "Printed"
-                            ],
-                            "cutTag": false
+                            ]
                         },
                         {
                             "atomType": "Assembly",
@@ -2661,7 +2651,7 @@
                             "type": null,
                             "resolution": 72,
                             "importIndex": 0,
-                            "fileName": null
+                            "partName": "Inner Uprights"
                         }
                     ],
                     "allConnectors": [
@@ -2982,8 +2972,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5873015873015873,
-                    "y": 0.6740947075208913,
+                    "x": 0.5932539682539683,
+                    "y": 0.6880222841225626,
                     "uniqueID": 1728507794095,
                     "ioValues": [
                         {
@@ -3157,7 +3147,7 @@
             "type": null,
             "resolution": 72,
             "importIndex": 0,
-            "fileName": null
+            "partName": "Gas-Fire-Pit"
         },
         {
             "atomType": "ExtractTag",
