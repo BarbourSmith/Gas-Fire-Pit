@@ -43,7 +43,7 @@
             "atomType": "Input",
             "name": "Wood Thickness",
             "x": 0.04,
-            "y": 0.5543175487465182,
+            "y": 0.5988857938718662,
             "uniqueID": 1726787881968,
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
@@ -634,8 +634,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.37367724867724866,
-            "y": 0.5348189415041783,
+            "x": 0.35912698412698413,
+            "y": 0.44568245125348194,
             "uniqueID": 1727736399623,
             "ioValues": [
                 {
@@ -3173,8 +3173,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "Fire-Pit-Ring",
-            "x": 0.137546468401487,
-            "y": 0.7632311977715878,
+            "x": 0.16600529100529102,
+            "y": 0.7715877437325905,
             "uniqueID": 1732300612349,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
