@@ -653,8 +653,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.6474867724867724,
-            "y": 0.7353760445682451,
+            "x": 0.6964285714285714,
+            "y": 0.6629526462395543,
             "uniqueID": 1727737312273,
             "ioValues": [
                 {
@@ -3127,8 +3127,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7903439153439152,
-            "y": 0.7437325905292479,
+            "x": 0.8247354497354497,
+            "y": 0.7688022284122563,
             "uniqueID": 1730758212492,
             "ioValues": [
                 {
@@ -3141,7 +3141,7 @@
                 },
                 {
                     "name": "Part Name",
-                    "ioValue": "Gas Fire Pit"
+                    "ioValue": "Gas-Fire-Pit"
                 },
                 {
                     "name": "File Type",
@@ -3767,6 +3767,37 @@
                     "source": "https://amzn.to/3XAoGSm"
                 }
             ]
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6263227513227514,
+            "y": 0.8356545961002785,
+            "uniqueID": 1744996521833,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1730757127964
+                },
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 12
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": []
         }
     ],
     "allConnectors": [
@@ -3888,6 +3919,13 @@
             "ap2Primary": true,
             "ap1ID": 1730757127964,
             "ap2ID": 1731108306750
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1730757127964,
+            "ap2ID": 1744996521833
         },
         {
             "ap1Name": "Geometry",
