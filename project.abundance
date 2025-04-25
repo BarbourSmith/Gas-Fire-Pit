@@ -2642,10 +2642,6 @@
                             "ioValue": 1728507794095
                         },
                         {
-                            "name": "Material Thickness",
-                            "ioValue": 12
-                        },
-                        {
                             "name": "Sheet Width",
                             "ioValue": 1400
                         },
@@ -2832,13 +2828,6 @@
                     "ap2Primary": false,
                     "ap1ID": 1727737741398,
                     "ap2ID": 1727737823997
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Material Thickness",
-                    "ap2Primary": false,
-                    "ap1ID": 1727737741398,
-                    "ap2ID": 1728507752623
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -3602,10 +3591,6 @@
                 {
                     "name": "geometry",
                     "ioValue": 1731108306750
-                },
-                {
-                    "name": "Material Thickness",
-                    "ioValue": 12
                 },
                 {
                     "name": "Sheet Width",
