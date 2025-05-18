@@ -4179,6 +4179,10 @@
                         {
                             "name": "Shape 3",
                             "ioValue": 1747526537823
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": 1747527475276
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -4667,7 +4671,7 @@
                     "atomType": "Move",
                     "name": "Move",
                     "x": 0.5026455026455027,
-                    "y": 0.7409470752089137,
+                    "y": 0.7103064066852367,
                     "uniqueID": 1747527471213,
                     "ioValues": [
                         {
@@ -4680,11 +4684,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 230
+                            "ioValue": 310
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 160
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -4710,7 +4714,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 25
+                            "ioValue": -63
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -4765,10 +4769,30 @@
                     "ap2Primary": true,
                     "ap1ID": 1747527471213,
                     "ap2ID": 1747527475276
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 1747527475276,
+                    "ap2ID": 1747526483542
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": [
+                {
+                    "BOMitemName": "Fire Pit Ring",
+                    "numberNeeded": 1,
+                    "costUSD": 206,
+                    "source": "https://amzn.to/3XAoGSm"
+                },
+                {
+                    "BOMitemName": "Propane Tank",
+                    "numberNeeded": 1,
+                    "costUSD": 68.95,
+                    "source": "https://www.amazon.com/Flame-King-YSN230b-Cylinder-Vertical/dp/B08XYH6TND"
+                }
+            ]
         }
     ],
     "allConnectors": [
