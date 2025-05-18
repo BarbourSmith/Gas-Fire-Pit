@@ -4395,7 +4395,7 @@
                             "ioValues": [
                                 {
                                     "name": "number or geometry",
-                                    "ioValue": 1747526868912
+                                    "ioValue": 1747534671019
                                 }
                             ],
                             "description": "Connect geometry here to make it available in the next level up. "
@@ -4439,8 +4439,8 @@
                         {
                             "atomType": "Fusion",
                             "name": "Fusion",
-                            "x": 0.6884920634920635,
-                            "y": 0.28690807799442897,
+                            "x": 0.5846560846560847,
+                            "y": 0.20334261838440112,
                             "uniqueID": 1747526864910,
                             "ioValues": [
                                 {
@@ -4462,8 +4462,8 @@
                         {
                             "atomType": "Color",
                             "name": "Color",
-                            "x": 0.7625661375661376,
-                            "y": 0.29526462395543174,
+                            "x": 0.71494708994709,
+                            "y": 0.30919220055710306,
                             "uniqueID": 1747526868912,
                             "ioValues": [
                                 {
@@ -4670,8 +4670,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5006613756613757,
-                            "y": 0.5376044568245125,
+                            "x": 0.4788359788359788,
+                            "y": 0.4958217270194986,
                             "uniqueID": 1747527324934,
                             "ioValues": [
                                 {
@@ -4692,6 +4692,56 @@
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
+                        },
+                        {
+                            "atomType": "Assembly",
+                            "name": "Assembly",
+                            "x": 0.880952380952381,
+                            "y": 0.2785515320334262,
+                            "uniqueID": 1747534671019,
+                            "ioValues": [
+                                {
+                                    "name": "Shape 1",
+                                    "ioValue": 1747526868912
+                                }
+                            ],
+                            "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.6183862433862434,
+                            "y": 0.7409470752089137,
+                            "uniqueID": 1747534680464,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 10
+                                }
+                            ],
+                            "description": "Creates a new rectangle."
+                        },
+                        {
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.7235449735449735,
+                            "y": 0.777158774373259,
+                            "uniqueID": 1747534695418,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1747534680464
+                                },
+                                {
+                                    "name": "height",
+                                    "ioValue": 32
+                                }
+                            ],
+                            "description": "Extrudes a 2D shape. Input can be negitive. "
                         }
                     ],
                     "allConnectors": [
@@ -4718,10 +4768,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
+                            "ap2Name": "Shape 1",
                             "ap2Primary": false,
                             "ap1ID": 1747526868912,
-                            "ap2ID": 1747526749275
+                            "ap2ID": 1747534671019
                         },
                         {
                             "ap1Name": "geometry",
@@ -4799,10 +4849,24 @@
                             "ap2Primary": false,
                             "ap1ID": 1747527324934,
                             "ap2ID": 1747526864910
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1747534671019,
+                            "ap2ID": 1747526749275
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1747534680464,
+                            "ap2ID": 1747534695418
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 },
                 {
                     "atomType": "Move",
